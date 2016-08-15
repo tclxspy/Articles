@@ -4,9 +4,8 @@ public class HeapSort {
 	/**
 	 * the implement method of HeapSort
 	 * @param data which prepare for sorting
-	 * @return the array after sorted
 	 */
-	public static int[] heapSort(int[] data) {	
+	public static void heapSort(int[] data) {	
 		//from the end index, build the Max-Heapify		
 		int startIndex = getParentIndex(data.length - 1);
 		for(int i = startIndex; i >= 0; i--) {
@@ -22,7 +21,6 @@ public class HeapSort {
 			//or
 			//maxHeapifyByIteration(data, i, 0);
 		}
-		return data;
 	}
 	
 	/**
@@ -112,9 +110,9 @@ public class HeapSort {
 	
 	public static void main(String[] args) {	
 		int[] sort = new int[]{1, 0, 10, 20, 3, 5, 6, 4, 9, 8, 12, 17, 34, 11};		
-		int[] result = heapSort(sort);
-		for (int i = 0; i < result.length; i++) {
-			System.out.print(result[i] + " ");
+		heapSort(sort);
+		for (int i = 0; i < sort.length; i++) {
+			System.out.print(sort[i] + " ");
 		}
 	}
 }
