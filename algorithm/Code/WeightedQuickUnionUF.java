@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class WeightedQuickUnionUF {
-	private int[] id; // 分量id（以触点作为索引）      
+    private int[] id; // 分量id（以触点作为索引）      
     
     private int[] sz; // （由触点索引的）各个根节点所对应的分量的大小
     
