@@ -4,7 +4,7 @@ public class MatrixMath {
     /**
      * 矩阵基本运算：加、减、乘、转置
      */
-		public final static int OPERATION_ADD = 1;  
+	    public final static int OPERATION_ADD = 1;  
 	    public final static int OPERATION_SUB = 2;  
 	    public final static int OPERATION_MUL = 4;		  
 	    
