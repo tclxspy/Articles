@@ -1,6 +1,6 @@
 
 public class DepthFirstSearch {
-	private boolean[] marked;//记录是否被dfs访问过
+    private boolean[] marked;//记录是否被dfs访问过
     private int[] edgesTo;//记录最后一个到当前节点的顶点
     private int s;//搜索的起始点
  

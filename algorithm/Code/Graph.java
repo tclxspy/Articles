@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Graph {
- 	private int verticals;//顶点个数
+    private int verticals;//顶点个数
     private int edges;//边的个数
     private List<Integer>[] adjacency;//顶点联接列表
  
     @SuppressWarnings("unchecked")
-	public Graph(int vertical) {
+    public Graph(int vertical) {
         this.verticals = vertical;
         this.edges = 0;
         adjacency = (List<Integer>[])new List[vertical]; 

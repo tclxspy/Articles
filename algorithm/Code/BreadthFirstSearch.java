@@ -1,6 +1,6 @@
 
 public class BreadthFirstSearch {
-	private boolean[] marked;
+    private boolean[] marked;
     private int[] edgeTo;
     private int s;//搜索的起始点
  
