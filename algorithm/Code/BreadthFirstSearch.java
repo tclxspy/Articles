@@ -4,16 +4,14 @@ public class BreadthFirstSearch {
     private int[] edgeTo;
     private int s;//搜索的起始点
  
-    public BreadthFirstSearch(Graph g, int s)
-    {
+    public BreadthFirstSearch(Graph g, int s) {
         marked=new boolean[g.GetVerticals()];
         edgeTo=new int[g.GetVerticals()];
         this.s = s;
         bfs(g, s);
     }
  
-    private void bfs(Graph g, int s)
-    {
+    private void bfs(Graph g, int s) {
         Queue<Integer> queue = new Queue<Integer>();
         marked[s] = true;
         queue.enqueue(s);
@@ -29,13 +27,11 @@ public class BreadthFirstSearch {
         }
     }
  
-    public boolean HasPathTo(int v)
-    {
+    public boolean HasPathTo(int v) {
         return marked[v];
     }
  
-    public Stack<Integer> PathTo(int v)
-    {
+    public Stack<Integer> PathTo(int v) {
         if (!HasPathTo(v)) {
         	return null;
         }
