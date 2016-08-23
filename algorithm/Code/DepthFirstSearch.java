@@ -57,7 +57,7 @@ public class DepthFirstSearch {
     	G.AddEdge(4, 9);
     	
     	DepthFirstSearch dfs = new DepthFirstSearch(G, 0);
-    	Stack<Integer> path = dfs.PathTo(12);
+    	Stack<Integer> path = dfs.PathTo(11);
     	while(path.size() != 0) {
     		System.out.print(path.pop() + " ");
     	}    	

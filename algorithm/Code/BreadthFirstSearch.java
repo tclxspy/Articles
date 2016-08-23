@@ -66,7 +66,7 @@ public class BreadthFirstSearch {
     	G.AddEdge(4, 9);
     	
     	BreadthFirstSearch bfs = new BreadthFirstSearch(G, 0);
-    	Stack<Integer> path = bfs.PathTo(12);
+    	Stack<Integer> path = bfs.PathTo(11);
     	while(path.size() != 0) {
     		System.out.print(path.pop() + " ");
     	}    	
