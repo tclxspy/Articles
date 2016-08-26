@@ -7,29 +7,32 @@ They are not only to introduce the logic of how to get, and also show the source
 # Contents #
 ## Part one: Algorithm ##
 
-Algorithm#01--Prime number and Prime number
+01--Prime number and Prime number
 算法#01--素数和牛顿迭代法求平方根
 
-- Prime number
-- Newton method 
-
-Algorithm#02--How to optimize FibonacciSequence
+02--How to optimize FibonacciSequence
 算法#02--斐波那契Fibonacci数列算法优化
 
 - FibonacciSequence
 - FastDoublingWithKaratsuba 
 
-Algorithm#03--CurveFitting with least squares
+03--CurveFitting with least squares
 算法#03--详解最小二乘法原理和代码
 
-- least squares
+- Least squares
 
+04--CurveFitting with GaussNewton
 算法#04--详解高斯牛顿迭代法原理和代码
 
+- GaussNewton method
+
+05--God's Fourier transform
 算法#05--神作：深入浅出傅里叶变换
 
+06--The basic data type and package
 算法#06--基本数据类型和包装
 
+07--bag,queue and stack with
 算法#07--背包、队列和栈（链表实现）
 
 算法#08--深入详解并查集union-find算法
