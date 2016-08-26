@@ -7,7 +7,7 @@ They are not only to introduce the logic of how to get, and also show the source
 # Contents #
 ## Part one: Algorithm ##
 
-01--[Prime number and Prime number](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2301--%E7%B4%A0%E6%95%B0%E5%92%8C%E7%89%9B%E9%A1%BF%E8%BF%AD%E4%BB%A3%E6%B3%95%E6%B1%82%E5%B9%B3%E6%96%B9%E6%A0%B9.md)
+01--[Prime number and Newton method](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2301--%E7%B4%A0%E6%95%B0%E5%92%8C%E7%89%9B%E9%A1%BF%E8%BF%AD%E4%BB%A3%E6%B3%95%E6%B1%82%E5%B9%B3%E6%96%B9%E6%A0%B9.md)
 算法#01--素数和牛顿迭代法求平方根
 
 02--[How to optimize FibonacciSequence](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2302--%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91Fibonacci%E6%95%B0%E5%88%97%E7%AE%97%E6%B3%95%E4%BC%98%E5%8C%96.md)
