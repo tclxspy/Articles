@@ -4,8 +4,13 @@ These articles are my programming learning notes. Most of them are combined with
 
 They are not only to introduce the logic of how to get, but also show the source code on java or csharp.
 
+Click the quickly guide:
+
+- [alogrithm](https://github.com/tclxspy/Articles#part-one-algorithm)
+- [csharp](https://github.com/tclxspy/Articles#part-two-csharp)
+
 # Contents #
-## Part one: Algorithm ##
+## Part one: algorithm ##
 
 01--[Prime number and Newton method](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2301--%E7%B4%A0%E6%95%B0%E5%92%8C%E7%89%9B%E9%A1%BF%E8%BF%AD%E4%BB%A3%E6%B3%95%E6%B1%82%E5%B9%B3%E6%96%B9%E6%A0%B9.md)
 算法#01--素数和牛顿迭代法求平方根
