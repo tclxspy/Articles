@@ -32,8 +32,12 @@ They are not only to introduce the logic of how to get, and also show the source
 06--The basic data type and package
 算法#06--基本数据类型和包装
 
-07--bag,queue and stack with
+07--Bag,queue and stack with node
 算法#07--背包、队列和栈（链表实现）
+
+- Bag
+- Queque
+- Stack
 
 算法#08--深入详解并查集union-find算法
 
