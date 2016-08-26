@@ -2,7 +2,7 @@
 
 These articles are my programming learning notes. Most of them are combined with books or network. Others are myself works.
 
-They are not only to introduce the logic of how to get, and also show the source code on java or csharp.
+They are not only to introduce the logic of how to get, but also show the source code on java or csharp.
 
 # Contents #
 ## Part one: Algorithm ##
