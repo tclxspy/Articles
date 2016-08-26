@@ -72,5 +72,5 @@ They are not only to introduce the logic of how to get, and also show the source
 
 ## Part two: csharp ##
 
-11--Summary multithreading buiding methods and their advantages and disadvantages
+11--Summary multi-thread buiding methods and their advantages and disadvantages
 从0自学C#11--多线程创建方法汇总以及优缺点
