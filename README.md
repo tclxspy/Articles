@@ -77,5 +77,8 @@ Click the quickly guide:
 
 ## Part two: csharp ##
 
+09--[Abstract factory](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2309--%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E5%AE%9E%E4%BE%8B.md)
+从0自学C#09--抽象工厂模式实例
+
 11--[Summary multi-thread buiding methods and their advantages and disadvantages](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2311--%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%88%9B%E5%BB%BA%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB%E4%BB%A5%E5%8F%8A%E4%BC%98%E7%BC%BA%E7%82%B9.md)
 从0自学C#11--多线程创建方法汇总以及优缺点
