@@ -52,7 +52,7 @@ public class Huffman
  	 */
 	public static String expand(String bitSteam, int length, String huffmanCode)
 	{	
-		Node root = null;
+	    Node root = null;
 	    if(bitSteam == "")
 	    {
 	    	return "";
@@ -64,24 +64,24 @@ public class Huffman
 
 	    int j = 0;
 	    String text = "";
-		for(int i = 0; i < length; i++)
+	    for(int i = 0; i < length; i++)
+	    {
+		Node x = root;
+		while(!x.isLeaf())
 		{
-			Node x = root;
-			while(!x.isLeaf())
+			if(huffmanCode.substring(j, j+1).equals("1"))
 			{
-				if(huffmanCode.substring(j, j+1).equals("1"))
-				{
-					x = x.right;
-				}
-				else
-				{
-					x = x.left;
-				}
-				j++;
+				x = x.right;
 			}
-			text +=x.ch;
-		}	
-		return text;
+			else
+			{
+				x = x.left;
+			}
+			j++;
+		}
+		text +=x.ch;
+	    }	
+	    return text;
 	}
 	
 	/**
@@ -203,17 +203,17 @@ public class Huffman
 	 */
 	private static Node readTrie(String s)
 	{    		
-    	if(s.substring(0, 1).equals("1"))
-    	{  
-    		int value = Integer.parseInt(s.substring(1, 1 + asciiLength),2);
+    	    if(s.substring(0, 1).equals("1"))
+    	    {  
+    	    	int value = Integer.parseInt(s.substring(1, 1 + asciiLength),2);
     		next = s.substring(1 + asciiLength);
     		return new Node((char)value, 0, null, null);    		
-    	}
-    	else
-    	{    		
+    	    }
+    	    else
+    	    {    		
     		next = s.substring(1);
     		return new Node('\0', 0, readTrie(next), readTrie(next));
-    	}    	
+    	    }    	
 	}
 	
 	/**
@@ -250,5 +250,5 @@ public class Huffman
 	    
 	    String expandText = Huffman.expand(bitStream, lengthOfText, HuffmanCode);
 	    System.out.println("Expand text: " + expandText);
-                }
+        }
 }
