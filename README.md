@@ -77,8 +77,23 @@ Click the quickly guide:
 
 ## Part two: csharp ##
 
+03--[Save to txt and excel format](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2303--%E6%96%87%E4%BB%B6%E6%B5%81%E4%BF%9D%E5%AD%98%E6%95%B0%E6%8D%AE%E4%B8%BAtxt-excel%E6%A0%BC%E5%BC%8F.md)
+从0自学C#03--文件流保存数据为txt-excel格式
+
+04--[Character and design philosophy](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2304--%E7%89%B9%E6%80%A7%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99.md)
+从0自学C#04--特性和设计原则
+
+05--[Forms Communication](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2305--%E7%AA%97%E4%BD%93%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E8%AE%BF%E9%97%AE.md)
+从0自学C#05--窗体之间的相互访问
+
+06--[Common object for forms](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2306--%E5%A4%9A%E7%AA%97%E4%BD%93%E5%85%B1%E7%94%A8%E5%AF%B9%E8%B1%A1.md)
+从0自学C#06--多窗体共用对象
+
 07--[Spiral Queue](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2307--%E8%9E%BA%E6%97%8B%E9%98%9F%E5%88%97%E5%92%8C%E8%9E%BA%E6%97%8B%E8%BF%90%E5%8A%A8.md)
 从0自学C#07--螺旋队列和螺旋运动
+
+08--[Chart control](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2308--%E7%BB%98%E5%88%B6%E6%9B%B2%E7%BA%BFchart%E6%8E%A7%E4%BB%B6.md)
+从0自学C#08--绘制曲线chart控件
 
 09--[Abstract factory](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2309--%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E5%AE%9E%E4%BE%8B.md)
 从0自学C#09--抽象工厂模式实例
