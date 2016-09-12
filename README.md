@@ -77,6 +77,12 @@ Click the quickly guide:
 
 ## Part two: csharp ##
 
+01--[customization form border](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2301--%E8%87%AA%E7%BB%98%E7%AA%97%E4%BD%93%E8%BE%B9%E6%A1%86.md)
+从0自学C#01--自绘窗体边框
+
+02--[How to get control info between the main thread and sub thread](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2302--%E5%AD%90%E7%BA%BF%E7%A8%8B%E8%AE%BF%E9%97%AE%E4%B8%BB%E7%BA%BF%E7%A8%8B%EF%BC%88UI%E7%BA%BF%E7%A8%8B%EF%BC%89%E6%8E%A7%E4%BB%B6.md)
+从0自学C#02--子线程访问主线程（UI线程）控件
+
 03--[Save to txt and excel format](https://github.com/tclxspy/Articles/blob/master/csharp/MD/%E4%BB%8E0%E8%87%AA%E5%AD%A6C%2303--%E6%96%87%E4%BB%B6%E6%B5%81%E4%BF%9D%E5%AD%98%E6%95%B0%E6%8D%AE%E4%B8%BAtxt-excel%E6%A0%BC%E5%BC%8F.md)
 从0自学C#03--文件流保存数据为txt-excel格式
 
