@@ -92,7 +92,7 @@ public class BTree<Key extends Comparable<Key>, Value>
     }
 
     @SuppressWarnings("unchecked")
-	private Value search(Node x, Key key, int ht) 
+    private Value search(Node x, Key key, int ht) 
     {
         Entry[] children = x.children;
 
@@ -307,5 +307,4 @@ public class BTree<Key extends Comparable<Key>, Value>
         System.out.println(st);
         System.out.println();
     }
-
 }
