@@ -96,7 +96,7 @@ public class BTree<Key extends Comparable<Key>, Value>
     {
         Entry[] children = x.children;
 
-        // external node
+        // external node到最底层叶子结点，遍历
         if (ht == 0) 
         {
             for (int j = 0; j < x.m; j++)             
@@ -108,7 +108,7 @@ public class BTree<Key extends Comparable<Key>, Value>
             }
         }
 
-        // internal node
+        // internal node递归查找next地址
         else 
         {
             for (int j = 0; j < x.m; j++) 
@@ -158,7 +158,7 @@ public class BTree<Key extends Comparable<Key>, Value>
         int j;
         Entry t = new Entry(key, val, null);
 
-        // external node
+        // external node外部结点，也是叶子结点，在树的最底层，存的是内容value
         if (ht == 0) 
         {
             for (j = 0; j < h.m; j++) 
@@ -170,7 +170,7 @@ public class BTree<Key extends Comparable<Key>, Value>
             }
         }
 
-        // internal node
+        // internal node内部结点，存的是next地址
         else 
         {
             for (j = 0; j < h.m; j++) 
@@ -200,7 +200,7 @@ public class BTree<Key extends Comparable<Key>, Value>
         	return null;
         }
         else         
-        {
+        {	//分裂结点
         	return split(h);
         }
     }
