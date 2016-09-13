@@ -51,7 +51,7 @@
 
 [点击下载](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/BTree.java)。
 
-该代码实现引入了哨兵键，代码输入则剔除了它。
+该代码实现引入了哨兵键，代码输出则剔除了它。
 
 代码里含有哨兵键的B树：
 
