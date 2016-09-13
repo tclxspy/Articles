@@ -25,9 +25,41 @@
 
 6. **其他结点为内部结点，保存索引，即key和next**。
 
+8. 内部结点的关键字key：K[1], K[2], …, K[M-1]；且K[i] < K[i+1]；
+
+10. 内容结点的指针next：P[1], P[2], …, P[M]；其中P[1]指向关键字小于K[1]的子树，P[M]指向关键字大于K[M-1]的子树，其它P[i]指向关键字属于(K[i-1], K[i])的子树；
+
+例如：（M=3）
+
+![](http://i.imgur.com/QPlIFZg.jpg)
+
+# 查找和插入 #
+
+为了方便这里用了一个特殊的哨兵键，它小于其他所有键，用*表示。
+
+一开始B树只含有一个根结点，而根结点在初始化时仅含有该哨兵键。
+
+内部结点中的每个键都与一个结点相关联，以此结点为根的子树种，所有的键都大于等于与此结点关联的键，但小于其他所有键。
+
+这些约定在很大程度上能够简化代码。
+
+![](http://i.imgur.com/KMPw0bE.jpg)
+
+![](http://i.imgur.com/BGmNUHr.jpg)
+
 ## 代码 ##
 
 [点击下载](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/BTree.java)。
+
+该代码实现引入了哨兵键，代码输入则剔除了它。
+
+代码里含有哨兵键的B树：
+
+![](http://i.imgur.com/YXy27tk.jpg)
+
+代码输出的B树：
+
+![](http://i.imgur.com/YVWyyHk.jpg)
 
 ```Java
 
@@ -341,3 +373,38 @@ public class BTree<Key extends Comparable<Key>, Value>
     }
 }
 ```
+
+输出：
+
+	cs.princeton.edu:  128.112.136.12
+	hardvardsucks.com: null
+	simpsons.com:      209.052.165.60
+	apple.com:         17.112.152.32
+	ebay.com:          66.135.192.87
+	dell.com:          143.166.224.230
+	
+	size:    17
+	height:  2
+	          www.amazon.com 207.171.182.16
+	          www.apple.com 17.112.152.32
+	          www.cnn.com 64.236.16.20
+	     (www.cs.princeton.edu)
+	          www.cs.princeton.edu 128.112.136.12
+	          www.cs.princeton.edu 128.112.136.11
+	          www.dell.com 143.166.224.230
+	(www.ebay.com)
+	          www.ebay.com 66.135.192.87
+	          www.espn.com 199.181.135.201
+	          www.google.com 216.239.41.99
+	     (www.microsoft.com)
+	          www.microsoft.com 207.126.99.140
+	          www.nytimes.com 199.239.136.200
+	(www.princeton.edu)
+	          www.princeton.edu 128.112.128.15
+	          www.simpsons.com 209.052.165.60
+	     (www.slashdot.org)
+	          www.slashdot.org 66.35.250.151
+	          www.weather.com 63.111.66.11
+	     (www.yahoo.com)
+	          www.yahoo.com 216.109.118.65
+	          www.yale.edu 130.132.143.21
