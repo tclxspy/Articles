@@ -60,7 +60,7 @@
 
 代码输出的B树：
 
-![](http://i.imgur.com/dnCYJs8.png)
+![](http://i.imgur.com/Qb69IxA.png)
 
 ```Java
 
