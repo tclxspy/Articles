@@ -37,10 +37,10 @@ public class LSD
 		String[] a= {"4PGC938", "2IYE230", "3CI0720", "1ICK750", "1OHV845", "4JZY524", "1ICK750",
     			"3CI0720", "1OHV845", "1OHV845", "2RLA629", "2RLA629", "3ATW723"};
     	
-    	LSD.sort(a, 7);
-    	for(int i = 0; i < a.length; i++)
-    	{
-    		System.out.println(a[i]);
-    	} 
+    		LSD.sort(a, 7);
+    		for(int i = 0; i < a.length; i++)
+    		{
+    		    System.out.println(a[i]);
+    		} 
 	 }
 }
