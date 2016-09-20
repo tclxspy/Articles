@@ -62,11 +62,12 @@ public class Quick3string {
 	
 	public static void main(String[] args) 
 	{	
-		String[] sort = new String[]{"Nicholas", "Nate", "Jenny", "Penny", "Cynthina", "Michael"};
-		Quick3string.sort(sort);
-		for (int i = 0; i < sort.length; i++)
+		String[] a= {"she", "sells", "seashells", "by", "the", "sea", "shore", "the", "shells", "she",
+	   			"sells", "are", "surely", "seashells"};
+		Quick3string.sort(a);
+		for (int i = 0; i < a.length; i++)
 		{
-			System.out.println(sort[i]);
+			System.out.println(a[i]);
 		}
 	}
 }
