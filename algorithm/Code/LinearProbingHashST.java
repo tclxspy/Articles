@@ -74,12 +74,12 @@ public class LinearProbingHashST<Key,Value>
 		
 		// 找到删除的位置
 		int i = hash(key);
-	    while (!key.equals(keys[i])) 
-	    {
-	    	i = (i + 1) % m;
-	    }
+	    	while (!key.equals(keys[i])) 
+	   	{
+	    		i = (i + 1) % m;
+	    	}
 
-	    keys[i] = null;
+	    	keys[i] = null;
 		vals[i] = null;
 		
 		// 将删除位置后面的值重新散列
