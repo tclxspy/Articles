@@ -147,17 +147,18 @@ public class LinearProbingHashST<Key,Value>
 	
 	 public static void main(String[] args) 
 	 { 
-		LinearProbingHashST<String, Integer> st = new LinearProbingHashST<String, Integer>();
-         		String[] data = new String[]{"a", "b", "c", "d", "e", "f", "g", "h", "m", "n", "o", "p"};
+		 LinearProbingHashST<String, String> st = new LinearProbingHashST<String, String>();
+         		String[] data = new String[]{"a", "b", "c", "d", "e", "f", "g", "h", "m"};
+         		String[] val = new String[]{"aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg", "hhh", "mmm"};
          		for (int i = 0; i < data.length; i++)
          		{            
-			st.put(data[i], i);
+			st.put(data[i], val[i]);
          		} 
 
          		for (int i = 0; i < data.length; i++)
          		{
-             			System.out.println(data[i] + " " + st.get(data[i]));
+             		System.out.println(data[i] + " " + st.get(data[i]));
          		}     
-    	 }
+     	}
 }
 

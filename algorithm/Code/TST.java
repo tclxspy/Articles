@@ -1,4 +1,4 @@
-//三向单词查找树
+//基于三向单词查找树的符号表
 public class TST<Value> {
 	private Node root;
 	private class Node
