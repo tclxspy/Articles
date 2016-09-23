@@ -63,17 +63,48 @@ Click the quickly guide:
 - [MergeSort](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/MergeSort.java)
 - [Quick3Way](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/Quick3Way.java)
 
-12--[Graph's depth first search and breadth first search](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2312--%E6%97%A0%E5%90%91%E5%9B%BE%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2%E5%92%8C%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2.md)
-算法#12--无向图的深度优先搜索和广度优先搜索
+12--[Sorting of string](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2312--%E8%AF%A6%E8%A7%A3%E5%90%84%E7%A7%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%92%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0.md)
+算法#12--详解各种字符串排序算法和代码实现
 
-- [Graph](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/Graph.java)
-- [DepthFirstSearch](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/DepthFirstSearch.java)
-- [BreadthFirstSearch](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/BreadthFirstSearch.java)
+- [LSD](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/LSD.java)
+- [MSD](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/MSD.java)
+- [Quick3string](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/Quick3string.java)
 
 13--[Coding of RedBlackBST on java](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2313--%E7%BA%A2%E9%BB%91%E6%A0%91%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81Java%E5%AE%9E%E7%8E%B0.md)
 算法#13--红黑树完整代码Java实现
 
 - [RedBlackBST](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/RedBlackBST.java)
+
+14--[Search of string](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2314--%E8%AF%A6%E8%A7%A3%E5%90%84%E7%A7%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%E5%92%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0.md)
+算法#14--详解各种字符串查找算法和代码实现
+
+- [LinearProbingHashST](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/LinearProbingHashST.java)
+- [TrieST](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/TrieST.java)
+- [TST](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/TST.java)
+
+15--[Search of substring](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2315--%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%E6%B1%87%E6%80%BB%E5%92%8C%E4%BB%A3%E7%A0%81%E8%AF%A6%E8%A7%A3.md)
+算法#15--子字符串查找算法汇总和代码详解
+
+- [ViolenceSubStringSearch](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/ViolenceSubStringSearch.java)
+- [KMP](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/KMP.java)
+- [BoyerMoore](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/BoyerMoore.java) 
+- [RabinKarp](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/RabinKarp.java) 
+
+16--[BTree](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2316--B%E6%A0%91%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81Java%E5%AE%9E%E7%8E%B0.md)
+算法#16--B树完整代码Java实现
+
+17--[Graph's depth first search and breadth first search](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2317--%E6%97%A0%E5%90%91%E5%9B%BE%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2%E5%92%8C%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2.md)
+算法#17--无向图的深度优先搜索和广度优先搜索
+
+- [Graph](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/Graph.java)
+- [DepthFirstSearch](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/DepthFirstSearch.java)
+- [BreadthFirstSearch](https://github.com/tclxspy/Articles/blob/master/algorithm/Code/BreadthFirstSearch.java)
+
+18--[Max flow](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2318--%E6%9C%80%E5%A4%A7%E6%B5%81%E9%87%8F%E9%97%AE%E9%A2%98%EF%BC%88%E7%BD%91%E7%BB%9C%E6%B5%81%E7%AE%97%E6%B3%95%EF%BC%89.md)
+算法#18--最大流量问题（网络流算法）
+
+19--[Huffman code](https://github.com/tclxspy/Articles/blob/master/algorithm/MD/%E7%AE%97%E6%B3%95%2319--%E9%9C%8D%E5%A4%AB%E6%9B%BC%E5%8E%8B%E7%BC%A9%EF%BC%88%E6%95%B0%E6%8D%AE%E5%8E%8B%E7%BC%A9%EF%BC%89.md)
+算法#19--霍夫曼压缩（数据压缩）
 
 ## Part two: csharp ##
 
