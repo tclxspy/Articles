@@ -193,8 +193,8 @@ public class Digraph
      */
     public static void main(String[] args) 
     {
-        	Digraph G = new Digraph(13);
-        	G.addEdge(4, 2);
+        Digraph G = new Digraph(13);
+        G.addEdge(4, 2);
     	G.addEdge(2, 3);
     	G.addEdge(3, 2);
     	G.addEdge(6, 0);
