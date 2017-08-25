@@ -226,3 +226,5 @@ SPI(Serial Peripheral Interface--串行外设接口)总线系统是一种同步�
 	  return data>>4;
 	}
 ```
+
+![](http://i.imgur.com/o319CjA.png)
