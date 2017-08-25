@@ -29,7 +29,7 @@ SPI(Serial Peripheral Interface--串行外设接口)总线系统是一种同步�
 
 ![](http://i.imgur.com/HXGcfst.jpg)
 
-# 代码 #
+#模拟SPI代码 #
 
 演示对芯片AD5317R的读写操作。
 
