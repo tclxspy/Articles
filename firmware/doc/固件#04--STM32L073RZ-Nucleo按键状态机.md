@@ -125,6 +125,7 @@ main函数：
 按键函数：
 
 ```C
+
 	StateStatus ReadKeyStatus(void)
 	{
 	    static StateStatus state = NoKeyDown;
