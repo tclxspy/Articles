@@ -1,0 +1,25 @@
+"--endian=little" 
+
+"--cpu=Cortex-M0+" 
+
+"--fpu=None" 
+
+"-p" 
+
+"E:\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\ST\STM32L073RZ.ddf" 
+
+"--drv_verify_download" 
+
+"--semihosting" 
+
+"--device=STM32L073RZ" 
+
+"--drv_interface=SWD" 
+
+"--stlink_reset_strategy=0,0" 
+
+"--drv_swo_clock_setup=32000000,0,2000000" 
+
+
+
+

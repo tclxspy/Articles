@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>D:\documents\Articles\firmware\projects\LED_FSM\USER\Src\main.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\documents\iardoc\projects\LED_FSM\USER\Inc\main.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\documents\iardoc\projects\LED_FSM\USER\Src\main.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+

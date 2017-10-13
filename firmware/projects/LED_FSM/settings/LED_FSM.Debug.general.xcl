@@ -1,0 +1,15 @@
+"E:\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"E:\IAR Systems\Embedded Workbench 7.2\arm\bin\armstlink.dll" 
+
+"D:\documents\Articles\firmware\projects\LED_FSM\Debug\Exe\LED_FSM.out" 
+
+--plugin "E:\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--device_macro "E:\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\ST\STM32L1xx.dmac" 
+
+--flash_loader "E:\IAR Systems\Embedded Workbench 7.2\arm\config\flashloader\ST\FlashSTM32L07xxZ.board" 
+
+
+
+
