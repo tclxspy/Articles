@@ -13,7 +13,7 @@
 
 是表示有限多个状态以及在这些状态之间转移和动作的数学模型。
 
-思想广泛应用于硬件控制电路设计，也是软件上常用的一种处理方法(软 件上称为FMM--有限消息机)。它把复杂的控制逻辑分解成有限个稳定状态，在每个状态上判断事件，变连续处理为离散数字处理，符合计算机的工作特点。
+思想广泛应用于硬件控制电路设计，也是软件上常用的一种处理方法(软件上称为FMM--有限消息机)。它把复杂的控制逻辑分解成有限个稳定状态，在每个状态上判断事件，变连续处理为离散数字处理，符合计算机的工作特点。
 
 同时，因为有限状态机具有有限个状态，所以可以在实际的工程上实现。**但这并不意味着其只能进行有限次的处理，相反，有限状态机是闭环系统，有限无穷，可以用有限的状态，处理无穷的事务。**
 
@@ -36,7 +36,7 @@
 
 ![](https://i.imgur.com/K52Pbj5.jpg)
 
-根据原理图，按键松开状态为1 按下为0. 每10ms检测一次按键电平，当前状态也随之改变（可能向同也可能变为另一状态）。 
+根据原理图，按键松开状态为1 按下为0. 每10ms检测一次按键电平，当前状态也随之改变（可能相同也可能变为另一状态）。 
 
 ```C
 
@@ -71,14 +71,7 @@ main函数：
 	
 	  /* Set TIMx instance */
 	  TimHandle.Instance = TIMx;
-	
-	  /* Initialize TIMx peripheral as follows:
-	       + Period = 2500 - 1
-	       + Prescaler = (SystemCoreClock/2500) - 1
-	       + ClockDivision = 0
-	       + Counter direction = Up
-	  */
-	  
+		  
 	  //中断服务程序间隔时间为
 	  //时间=1/频率×次数
 	  //((1+TIM_Prescaler )/2M)*(1+TIM_Period )
@@ -120,7 +113,7 @@ main函数：
 	
 	   if(key == OnceKeyDown)
 	   {
-	      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);//短按灭灯灯
+	      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);//短按灭灯
 	   }
 	   else if(key == ContiousKeyDown)
 	   {
