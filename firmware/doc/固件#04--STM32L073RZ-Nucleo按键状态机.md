@@ -52,7 +52,7 @@
 
 main函数：
 
-````c
+```C
 
 	int main(void)
 	{
@@ -103,7 +103,7 @@ main函数：
 
 定时器中断函数(CPU每10ms调用一次中断服务程序，按键抖动一般为5~10ms 按一次按键的时间一般为20~30ms）:
 
-```c
+```C
 
 	void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	{  
@@ -125,7 +125,6 @@ main函数：
 按键函数：
 
 ```C
-
 	StateStatus ReadKeyStatus(void)
 	{
 	    static StateStatus state = NoKeyDown;
@@ -193,3 +192,5 @@ main函数：
 	    return KeyReturn;     
 	}
 ```
+
+查看整个项目代码：[https://github.com/tclxspy/Articles/tree/master/firmware/projects/LED_FSM](https://github.com/tclxspy/Articles/tree/master/firmware/projects/LED_FSM)
