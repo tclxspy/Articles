@@ -39,6 +39,7 @@ ADC 具有模拟看门狗特性，允许应用检测输入电压是否超过了�
 5. 使能ADC
 6. 等待ADRDY置1
 7. 开启ADC转换
+
 ![](https://i.imgur.com/DT6d6NA.jpg)
 
 ## 读取ADC ##
